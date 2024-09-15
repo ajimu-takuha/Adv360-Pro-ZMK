@@ -6,9 +6,7 @@
     "base",
     "keypad",
     "fn",
-    "mod",
-    "onishi",
-    "Layer #5"
+    "mod"
   ],
   "layers": [
     [
@@ -35,18 +33,6 @@
         "&none",        "&none",        "&none",        "&none",        "&none",        "&none",                 "&none",  "&none",  "&none",                     "&bt BT_CLR",      "&none", "&rgb_ug RGB_MEFS_CMD 5",  "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
         "&none",        "&none",        "&none",        "&none",   "&macro_ver",        "&none",                                     "&none",                          "&none",                                          "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
         "&none",        "&none",        "&none",        "&none",        "&none",                                 "&none",  "&none",  "&none",                          "&none", "&bl BL_TOG",        "&rgb_ug RGB_TOG",           "&bl BL_INC", "&bl BL_DEC",  "&none",  "&none",  "&none"
-    ], [
-       "&trans", "&trans", "&trans", "&trans",    "&trans",        "&trans",              "&trans",                                                                          "&trans", "&trans", "&trans", "&trans", "&trans", "&kp SLASH", "&trans",
-       "&trans",  "&kp Q",  "&kp L",  "&kp U", "&kp COMMA",    "&kp PERIOD",              "&trans",                                                                          "&trans",  "&kp F",  "&kp W",  "&kp R",  "&kp Y",     "&kp P", "&trans",
-       "&trans",  "&kp E",  "&kp I",  "&kp A",     "&kp O",     "&kp MINUS",              "&trans",    "&trans", "&trans",                     "&trans",    "&trans",        "&trans",  "&kp K",  "&kp T",  "&kp N",  "&kp S",     "&kp H", "&trans",
-       "&trans",  "&kp Z",  "&kp X",  "&kp C",     "&kp V", "&kp SEMICOLON",                                     "&trans",                     "&trans",                                "&kp G",  "&kp D",  "&kp M",  "&kp J",     "&kp B", "&trans",
-       "&trans", "&trans", "&trans", "&trans",    "&trans",                            "&kp GRAVE", "&kp SPACE", "&trans",                     "&trans", "&kp ENTER", "&kp BACKSPACE",           "&trans", "&trans", "&trans",    "&trans", "&trans"
-    ], [
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
     ]
   ]
 }

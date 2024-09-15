@@ -78,25 +78,5 @@
             >;
         };
 
-        layer_onishi {
-            bindings = <
- &trans  &trans  &trans  &trans     &trans         &trans               &trans                                                               &trans  &trans  &trans  &trans  &trans  &kp SLASH  &trans
- &trans   &kp Q   &kp L   &kp U  &kp COMMA     &kp PERIOD               &trans                                                               &trans   &kp F   &kp W   &kp R   &kp Y      &kp P  &trans
- &trans   &kp E   &kp I   &kp A      &kp O      &kp MINUS               &trans     &trans  &trans                  &trans     &trans         &trans   &kp K   &kp T   &kp N   &kp S      &kp H  &trans
- &trans   &kp Z   &kp X   &kp C      &kp V  &kp SEMICOLON                                  &trans                  &trans                             &kp G   &kp D   &kp M   &kp J      &kp B  &trans
- &trans  &trans  &trans  &trans     &trans                           &kp GRAVE  &kp SPACE  &trans                  &trans  &kp ENTER  &kp BACKSPACE          &trans  &trans  &trans     &trans  &trans
-            >;
-        };
-
-        layer_Layer__5 {
-            bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
     };
 };
