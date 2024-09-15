@@ -1,6 +1,6 @@
-macro_半角全角: macro_半角全角{
+macro_ctrl_space: macro_ctrl_space{
 compatible = "zmk,behavior-macro";
-label = "macro_半角全角";
+label = "macro_ctrl_space";
 #binding-cells = <0>;
 bindings = <&kp LCTRL>, <&kp SPACE>;
 };
