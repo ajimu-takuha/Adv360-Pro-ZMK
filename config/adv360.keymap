@@ -78,7 +78,7 @@
             >;
         };
 
-        layer_Onishi {
+        layer_onishi {
             bindings = <
  &trans  &trans  &trans  &trans     &trans         &trans               &trans                                                               &trans  &trans  &trans  &trans  &trans  &kp SLASH  &trans
  &trans   &kp Q   &kp L   &kp U  &kp COMMA     &kp PERIOD               &trans                                                               &trans   &kp F   &kp W   &kp R   &kp Y      &kp P  &trans
