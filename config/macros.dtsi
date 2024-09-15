@@ -1,3 +1,9 @@
+macro_半角全角: macro_半角全角{
+compatible = "zmk,behavior-macro";
+label = "macro_半角全角";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp SPACE>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
