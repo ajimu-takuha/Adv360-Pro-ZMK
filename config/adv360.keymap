@@ -44,7 +44,7 @@
    &kp TAB             &kp Q              &kp L                  &kp U        &kp COMMA     &kp PERIOD                     &kp HOME                                                                                    &kp PG_UP   &kp F      &kp W          &kp R         &kp Y         &kp P    &kp PRINTSCREEN
  &kp LCTRL             &kp E              &kp I                  &kp A            &kp O      &kp MINUS                      &kp END  &kp LANG_ZENKAKUHANKAKU  &kp LEFT_ALT                  &kp ESCAPE    &kp DEL  &kp PAGE_DOWN   &kp K      &kp T          &kp N         &kp S         &kp H          &kp EQUAL
  &kp LSHFT             &kp Z              &kp X                  &kp C            &kp V  &kp SEMICOLON                                                            &kp DOWN                      &kp UP                             &kp G      &kp D          &kp M         &kp J         &kp B   &kp LEFT_BRACKET
-  &kp LGUI  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &macro_ctrl+shift+tab  &macro_ctrl+tab                           &macro_ctrl_space                &kp SPACE     &kp RIGHT                    &kp LEFT  &kp ENTER  &kp BACKSPACE          &kp SLASH  &kp BACKSLASH  &kp C_VOL_DN  &kp C_VOL_UP  &kp RIGHT_BRACKET
+  &kp LGUI  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &macro_ctrl_shift_tab  &macro_ctrl_tab                           &macro_ctrl_space                &kp SPACE     &kp RIGHT                    &kp LEFT  &kp ENTER  &kp BACKSPACE          &kp SLASH  &kp BACKSLASH  &kp C_VOL_DN  &kp C_VOL_UP  &kp RIGHT_BRACKET
             >;
         };
 
