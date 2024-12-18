@@ -1,10 +1,10 @@
-macro_ctrl+tab: macro_ctrl+tab{
+macro_ctrl+tab: macro_ctrl_tab{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl+tab";
 #binding-cells = <0>;
 bindings = <&kp LCTRL>, <&kp TAB>;
 };
-macro_ctrl+shift+tab: macro_ctrl+shift+tab{
+macro_ctrl+shift+tab: macro_ctrl_shift_tab{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl+shift+tab";
 #binding-cells = <0>;
