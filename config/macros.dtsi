@@ -1,3 +1,9 @@
+macro_shift_space: macro_shift_space{
+compatible = "zmk,behavior-macro";
+label = "macro_shift_space";
+#binding-cells = <0>;
+bindings = <&kp LEFT_SHIFT>;
+};
 macro_copy_column: macro_copy_column{
 compatible = "zmk,behavior-macro";
 label = "macro_copy_column";
