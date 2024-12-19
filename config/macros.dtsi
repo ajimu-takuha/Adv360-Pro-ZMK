@@ -2,7 +2,7 @@ macro_copy_column: macro_copy_column{
 compatible = "zmk,behavior-macro";
 label = "macro_copy_column";
 #binding-cells = <0>;
-bindings = <&kp HOME>, <&kp LEFT_SHIFT>, <&kp END>, <&kp LCTRL>, <&kp C>, <&kp RIGHT>;
+bindings = <&kp HOME>, <&kp LS(END)>, <&kp LC(C)>, <&kp RIGHT>;
 };
 macro_ctrl_shift_tab: macro_ctrl_shift_tab{
 compatible = "zmk,behavior-macro";
