@@ -39,7 +39,7 @@
          "&kp TAB",            "&kp Q",             "&kp W",                 "&kp E",           "&kp R",  "&kp T",                    "&kp HOME",                                                                                   "&kp UP",  "&kp Y",     "&kp U",         "&kp I",         "&kp O",         "&kp P",   "&kp PRINTSCREEN",
        "&kp LCTRL",            "&kp A",             "&kp S",                 "&kp D",           "&kp F",  "&kp G",                     "&kp END", "&kp LANG5", "&kp LEFT_ALT",                      "&kp ESC", "&kp DELETE",      "&kp DOWN",  "&kp H",     "&kp J",         "&kp K",         "&kp L",     "&kp MINUS",         "&kp EQUAL",
        "&kp LSHFT",            "&kp Z",             "&kp X",                 "&kp C",           "&kp V",  "&kp B",                                                 "&kp DOWN",                       "&kp UP",                                 "&kp N",     "&kp M",     "&kp COMMA",    "&kp PERIOD",     "&kp SLASH",  "&kp LEFT_BRACKET",
-        "&kp LGUI", "&kp SINGLE_QUOTE", "&kp DOUBLE_QUOTES", "&macro_ctrl+shift+tab", "&macro_ctrl+tab",                     "&macro_ctrl_space", "&kp SPACE",    "&kp RIGHT",                     "&kp LEFT",  "&kp ENTER", "&kp BACKSPACE",           "&kp SLASH", "&kp BACKSLASH", "&kp SEMICOLON", "&kp BACKSLASH", "&kp RIGHT_BRACKET"
+        "&kp LGUI", "&kp SINGLE_QUOTE", "&kp DOUBLE_QUOTES", "&macro_ctrl_shift_tab", "&macro_ctrl_tab",                     "&macro_ctrl_space", "&kp SPACE",    "&kp RIGHT",                     "&kp LEFT",  "&kp ENTER", "&kp BACKSPACE",           "&kp SLASH", "&kp BACKSLASH", "&kp SEMICOLON", "&kp BACKSLASH", "&kp RIGHT_BRACKET"
     ]
   ]
 }
