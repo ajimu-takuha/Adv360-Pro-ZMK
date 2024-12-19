@@ -1,14 +1,14 @@
 macro_ctrl_shift_tab: macro_ctrl_shift_tab{
-compatible = "zmk,behavior-macro";
+compatible = "zmk,behavior-combo";
 label = "macro_ctrl_shift_tab";
 #binding-cells = <0>;
-bindings = <&macro LCTRL LEFT_SHIFT TAB>;
+bindings = <&behavior_combo LCTRL LEFT_SHIFT TAB>;
 };
 macro_ctrl_tab: macro_ctrl_tab{
-compatible = "zmk,behavior-macro";
+compatible = "zmk,behavior-combo";
 label = "macro_ctrl_tab";
 #binding-cells = <0>;
-bindings = <&macro LCTRL TAB>;
+bindings = <&behavior_combo LCTRL TAB>;
 };
 macro_ctrl_space: macro_ctrl_space{
 compatible = "zmk,behavior-macro";
