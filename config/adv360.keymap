@@ -17,7 +17,7 @@
 
 / {
     behaviors {
-    #include "macros.dtsi"
+        #include "macros.dtsi"
     #include "version.dtsi"
 
         hm: homerow_mods {
@@ -32,71 +32,81 @@
     };
 
     macros {
-        macro_shift_space: macro_shift_space{
-        compatible = "zmk,behavior-macro";
-        label = "macro_shift_space";
-        #binding-cells = <0>;
-        bindings = <&kp LS(SPACE)>;
+        macro_shift_space: macro_shift_space {
+            compatible = "zmk,behavior-macro";
+            label = "macro_shift_space";
+            #binding-cells = <0>;
+            bindings = <&kp LS(SPACE)>;
         };
-        macro_copy_column: macro_copy_column{
-        compatible = "zmk,behavior-macro";
-        label = "macro_copy_column";
-        #binding-cells = <0>;
-        bindings = <&kp HOME>, <&kp LS(END)>, <&kp LC(C)>, <&kp RIGHT>;
+
+        macro_copy_column: macro_copy_column {
+            compatible = "zmk,behavior-macro";
+            label = "macro_copy_column";
+            #binding-cells = <0>;
+            bindings = <&kp HOME &kp LS(END) &kp LC(C) &kp RIGHT>;
         };
-        macro_ctrl_shift_tab: macro_ctrl_shift_tab{
-        compatible = "zmk,behavior-macro";
-        label = "macro_ctrl_shift_tab";
-        #binding-cells = <0>;
-        bindings = <&kp LS(LC(TAB))>;
+
+        macro_ctrl_shift_tab: macro_ctrl_shift_tab {
+            compatible = "zmk,behavior-macro";
+            label = "macro_ctrl_shift_tab";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LC(TAB))>;
         };
-        macro_ctrl_tab: macro_ctrl_tab{
-        compatible = "zmk,behavior-macro";
-        label = "macro_ctrl_tab";
-        #binding-cells = <0>;
-        bindings = <&kp LC(TAB)>;
+
+        macro_ctrl_tab: macro_ctrl_tab {
+            compatible = "zmk,behavior-macro";
+            label = "macro_ctrl_tab";
+            #binding-cells = <0>;
+            bindings = <&kp LC(TAB)>;
         };
-        macro_ctrl_space: macro_ctrl_space{
-        compatible = "zmk,behavior-macro";
-        label = "macro_ctrl_space";
-        #binding-cells = <0>;
-        bindings = <&kp LC(SPACE)>;
+
+        macro_ctrl_space: macro_ctrl_space {
+            compatible = "zmk,behavior-macro";
+            label = "macro_ctrl_space";
+            #binding-cells = <0>;
+            bindings = <&kp LC(SPACE)>;
         };
-        macro_quotes: macro_quotes{
-        compatible = "zmk,behavior-macro";
-        label = "macro_quotes";
-        #binding-cells = <0>;
-        bindings = <&kp SQT>, <&kp SQT>, <&kp LEFT>;
+
+        macro_quotes: macro_quotes {
+            compatible = "zmk,behavior-macro";
+            label = "macro_quotes";
+            #binding-cells = <0>;
+            bindings = <&kp SQT &kp SQT &kp LEFT>;
         };
-        macro_dquotes: macro_dquotes{
-        compatible = "zmk,behavior-macro";
-        label = "macro_dquotes";
-        #binding-cells = <0>;
-        bindings = <&kp DQT>, <&kp DQT>, <&kp LEFT>;
+
+        macro_dquotes: macro_dquotes {
+            compatible = "zmk,behavior-macro";
+            label = "macro_dquotes";
+            #binding-cells = <0>;
+            bindings = <&kp DQT &kp DQT &kp LEFT>;
         };
-        macro_braces: macro_braces{
-        compatible = "zmk,behavior-macro";
-        label = "macro_braces";
-        #binding-cells = <0>;
-        bindings = <&kp LBRC>, <&kp RBRC>, <&kp LEFT>;
+
+        macro_braces: macro_braces {
+            compatible = "zmk,behavior-macro";
+            label = "macro_braces";
+            #binding-cells = <0>;
+            bindings = <&kp LBRC &kp RBRC &kp LEFT>;
         };
-        macro_parens: macro_parens{
-        compatible = "zmk,behavior-macro";
-        label = "macro_parens";
-        #binding-cells = <0>;
-        bindings = <&kp LPAR>, <&kp RPAR>, <&kp LEFT>;
+
+        macro_parens: macro_parens {
+            compatible = "zmk,behavior-macro";
+            label = "macro_parens";
+            #binding-cells = <0>;
+            bindings = <&kp LPAR &kp RPAR &kp LEFT>;
         };
-        macro_brackets: macro_brackets{
-        compatible = "zmk,behavior-macro";
-        label = "macro_brackets";
-        #binding-cells = <0>;
-        bindings = <&kp LBKT>, <&kp RBKT>, <&kp LEFT>;
+
+        macro_brackets: macro_brackets {
+            compatible = "zmk,behavior-macro";
+            label = "macro_brackets";
+            #binding-cells = <0>;
+            bindings = <&kp LBKT &kp RBKT &kp LEFT>;
         };
-        macro_kinesis: macro_kinesis{
-        compatible = "zmk,behavior-macro";
-        label = "macro_kinesis";
-        #binding-cells = <0>;
-        bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
+
+        macro_kinesis: macro_kinesis {
+            compatible = "zmk,behavior-macro";
+            label = "macro_kinesis";
+            #binding-cells = <0>;
+            bindings = <&kp LS(K) &kp I &kp N &kp E &kp S &kp I &kp S>;
         };
     };
 
@@ -105,17 +115,17 @@
 
         default_layer {
             bindings = <
-&tog 3     &kp N1     &kp N2        &kp N3           &kp N4            &kp N5         &mo 2                                                                           &tog 4         &kp N6  &kp N7     &kp N8         &kp N9                &kp N0                 &to 1
-&kp TAB    &kp Q      &kp L         &kp U            &kp COMMA         &kp PERIOD     &kp PAGE_UP                                                                     &kp UP         &kp F   &kp W      &kp R          &kp Y                 &kp P                  &kp SINGLE_QUOTE
-&kp LCTRL  &kp E      &kp I         &kp A            &kp O             &kp MINUS      &kp PAGE_DOWN      &macro_copy_column  &kp ESCAPE      &kp LEFT_ALT  &kp DEL    &kp DOWN       &kp K   &kp T      &kp N          &kp S                 &kp H                  &kp EQUAL
-&kp LSHFT  &kp Z      &kp X         &kp C            &kp V             &kp SEMICOLON                                         &kp END         &kp HOME                                &kp G   &kp D      &kp M          &kp J                 &kp B                  &kp LEFT_BRACKET
-&mo 5      &kp TILDE  &kp C_VOL_DN  &kp C_VOLUME_UP  &kp C_PLAY_PAUSE                 &macro_ctrl_space  &kp SPACE           &kp RIGHT       &kp LEFT      &kp ENTER  &kp BACKSPACE          &kp SLASH  &kp BACKSLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET
+&tog 3     &kp N1              &kp N2            &kp N3        &kp N4        &kp N5         &mo 2                                                                    &tog 4         &kp N6  &kp N7     &kp N8         &kp N9     &kp N0  &tog 1
+&kp TAB    &kp Q               &kp L             &kp U         &kp COMMA     &kp PERIOD     &kp PAGE_UP                                                              &kp UP         &kp F   &kp W      &kp R          &kp Y      &kp P   &kp SINGLE_QUOTE
+&kp LCTRL  &kp E               &kp I             &kp A         &kp O         &kp MINUS      &kp PAGE_DOWN      &kp LEFT_ALT  &kp ESC        &kp LEFT_WIN  &kp DEL    &kp DOWN       &kp K   &kp T      &kp N          &kp S      &kp H   &kp EQUAL
+&kp LSHFT  &kp Z               &kp X             &kp C         &kp V         &kp SEMICOLON                                   &kp END        &kp HOME                                &kp G   &kp D      &kp M          &kp J      &kp B   &kp LEFT_BRACKET
+&mo 5      &macro_copy_column  &kp C_PLAY_PAUSE  &kp C_VOL_DN  &kp C_VOL_UP                 &macro_ctrl_space  &kp SPACE     &kp RIGHT      &kp LEFT      &kp ENTER  &kp BACKSPACE          &kp SLASH  &kp BACKSLASH  &kp TILDE  &kp AT  &kp RIGHT_BRACKET
             >;
         };
 
         layer_keypad {
             bindings = <
-&kp EQUAL  &kp N1     &kp F2    &kp F3    &kp F4     &kp F5  &none                                                    &mo 3      &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
+&kp EQUAL  &kp N1     &kp F2    &kp F3    &kp F4     &kp F5  &none                                                    &mo 3      &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &tog 1
 &kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &none                                                    &none      &kp Y   &kp KP_N7   &kp KP_N8     &kp KP_N9      &kp KP_MINUS     &kp BSLH
 &kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp H   &kp KP_N4   &kp KP_N5     &kp KP_N6      &kp KP_PLUS      &kp SQT
 &kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                        &kp HOME      &kp PG_UP                        &kp N   &kp KP_N1   &kp KP_N2     &kp KP_N3      &kp KP_ENTER     &kp RSHFT
@@ -155,11 +165,11 @@
 
         arrows {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans       &trans    &trans         &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &kp HOME     &kp UP    &kp END        &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LEFT     &kp DOWN  &kp RIGHT      &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &kp PAGE_UP  &trans    &kp PAGE_DOWN  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans       &trans    &trans         &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans    &trans       &kp PAGE_UP    &trans         &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans    &kp HOME     &kp UP         &kp END        &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp HOME  &kp LEFT     &kp DOWN       &kp RIGHT      &kp END  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans    &kp PAGE_UP  &kp PAGE_DOWN  &kp PAGE_DOWN  &trans   &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans            &trans       &trans         &trans         &trans   &trans
             >;
         };
     };
