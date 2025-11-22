@@ -143,21 +143,21 @@
 
         default_layer {
             bindings = <
-&mo 4      &kp N1     &kp N2            &kp N3        &kp N4        &kp N5         &mo 3                                                                    &tog 1         &kp N6  &kp N7     &kp N8         &kp N9               &kp N0         &macro_ScreenShot
-&kp TAB    &kp Q      &kp L             &kp U         &kp COMMA     &kp PERIOD     &kp PAGE_UP                                                              &kp UP         &kp F   &kp W      &kp R          &kp Y                &kp P          &kp SINGLE_QUOTE
-&kp LCTRL  &kp E      &kp I             &kp A         &kp O         &kp MINUS      &kp PAGE_DOWN      &kp LEFT_ALT  &kp ESC        &kp LEFT_WIN  &kp DEL    &kp DOWN       &kp K   &kp T      &kp N          &kp S                &kp H          &kp EQUAL
-&kp LSHFT  &kp Z      &kp X             &kp C         &kp V         &kp SEMICOLON                                   &kp END        &kp HOME                                &kp G   &kp D      &kp M          &kp J                &kp B          &kp LEFT_BRACKET
-&tog 5     &kp TILDE  &kp C_PLAY_PAUSE  &kp C_VOL_DN  &kp C_VOL_UP                 &macro_ctrl_space  &kp SPACE     &kp RIGHT      &kp LEFT      &kp ENTER  &kp BACKSPACE          &kp SLASH  &kp BACKSLASH  &macro_ctrl_shift_t  &macro_ctrl_w  &kp RIGHT_BRACKET
+&kp F12    &kp N1      &kp N2            &kp N3        &kp N4        &kp N5         &mo 3                                                                    &tog 1         &kp N6  &kp N7     &kp N8         &kp N9     &kp N0               &mo 4
+&kp TAB    &kp Q       &kp L             &kp U         &kp COMMA     &kp PERIOD     &kp PAGE_UP                                                              &kp UP         &kp F   &kp W      &kp R          &kp Y      &kp P                &kp SINGLE_QUOTE
+&kp LCTRL  &kp E       &kp I             &kp A         &kp O         &kp MINUS      &kp PAGE_DOWN      &kp LEFT_ALT  &kp ESC        &kp LEFT_WIN  &kp DEL    &kp DOWN       &kp K   &kp T      &kp N          &kp S      &kp H                &kp EQUAL
+&kp LSHFT  &kp Z       &kp X             &kp C         &kp V         &kp SEMICOLON                                   &kp END        &kp HOME                                &kp G   &kp D      &kp M          &kp J      &kp B                &kp LEFT_BRACKET
+&tog 5     &kp C_MUTE  &kp C_PLAY_PAUSE  &kp C_VOL_DN  &kp C_VOL_UP                 &macro_ctrl_space  &kp SPACE     &kp RIGHT      &kp LEFT      &kp ENTER  &kp BACKSPACE          &kp SLASH  &kp BACKSLASH  &kp TILDE  &kp LA(PRINTSCREEN)  &kp RIGHT_BRACKET
             >;
         };
 
         layer_qwerty {
             bindings = <
-&macro_ctrl_shift_tab  &kp N1              &kp N2            &kp N3             &kp N4           &kp N5  &mo 3                                                                     &tog 1         &kp N6  &kp N7     &kp N8         &kp N9         &kp N0     &macro_ctrl_tab
-&kp TAB                &kp Q               &kp W             &kp E              &kp R            &kp T   &kp PAGE_UP                                                               &kp UP         &kp Y   &kp U      &kp I          &kp O          &kp P      &kp SINGLE_QUOTE
-&kp LCTRL              &kp A               &kp S             &kp D              &kp F            &kp G   &kp PAGE_DOWN      &kp LEFT_ALT  &kp ESC        &kp LEFT_WIN  &kp DELETE  &kp DOWN       &kp H   &kp J      &kp K          &kp L          &kp MINUS  &kp EQUAL
-&kp LSHFT              &kp Z               &kp X             &kp C              &kp V            &kp B                                    &kp END        &kp HOME                                 &kp N   &kp M      &kp COMMA      &kp PERIOD     &kp SLASH  &kp LEFT_BRACKET
-&kp LGUI               &macro_copy_column  &kp C_PLAY_PAUSE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP          &macro_ctrl_space  &kp SPACE     &kp RIGHT      &kp LEFT      &kp ENTER   &kp BACKSPACE          &kp SLASH  &kp BACKSLASH  &kp SEMICOLON  &kp COLON  &kp RIGHT_BRACKET
+&kp LC(RS(TAB))  &kp N1      &kp N2            &kp N3             &kp N4           &kp N5  &mo 3                                                                     &tog 1         &kp N6  &kp N7     &kp N8         &kp N9         &kp N0     &kp LC(TAB)
+&kp TAB          &kp Q       &kp W             &kp E              &kp R            &kp T   &kp PAGE_UP                                                               &kp UP         &kp Y   &kp U      &kp I          &kp O          &kp P      &kp SINGLE_QUOTE
+&kp LCTRL        &kp A       &kp S             &kp D              &kp F            &kp G   &kp PAGE_DOWN      &kp LEFT_ALT  &kp ESC        &kp LEFT_WIN  &kp DELETE  &kp DOWN       &kp H   &kp J      &kp K          &kp L          &kp MINUS  &kp EQUAL
+&kp LSHFT        &kp Z       &kp X             &kp C              &kp V            &kp B                                    &kp END        &kp HOME                                 &kp N   &kp M      &kp COMMA      &kp PERIOD     &kp SLASH  &kp LEFT_BRACKET
+&kp LGUI         &kp C_MUTE  &kp C_PLAY_PAUSE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP          &macro_ctrl_space  &kp SPACE     &kp RIGHT      &kp LEFT      &kp ENTER   &kp BACKSPACE          &kp SLASH  &kp BACKSLASH  &kp SEMICOLON  &kp COLON  &kp RIGHT_BRACKET
             >;
         };
 
@@ -183,11 +183,11 @@
 
         layer_mod {
             bindings = <
-&none  &none  &none  &none  &none  &none  &bootloader                                                           &bootloader             &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none                                                                 &bootloader             &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none           &none       &bt BT_SEL 0      &none       &none       &rgb_ug RGB_MEFS_CMD 5  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none                              &bt BT_SEL 1      &bl BL_INC                                      &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none         &bt BT_CLR_ALL  &bt BT_CLR  &bt BT_SEL 2      &bl BL_DEC  &bl BL_TOG  &rgb_ug RGB_TOG                &none  &none  &none  &none  &none
+&none        &none  &none  &none  &none  &none  &none                                                                 &bootloader             &none  &none  &none  &none  &none  &none
+&none        &none  &none  &none  &none  &none  &none                                                                 &bootloader             &none  &none  &none  &none  &none  &none
+&none        &none  &none  &none  &none  &none  &none           &none       &bt BT_SEL 0      &none       &none       &rgb_ug RGB_MEFS_CMD 5  &none  &none  &none  &none  &none  &none
+&none        &none  &none  &none  &none  &none                              &bt BT_SEL 1      &bl BL_INC                                      &none  &none  &none  &none  &none  &none
+&bootloader  &none  &none  &none  &none         &bt BT_CLR_ALL  &bt BT_CLR  &bt BT_SEL 2      &bl BL_DEC  &bl BL_TOG  &rgb_ug RGB_TOG                &none  &none  &none  &none  &none
             >;
         };
 
